@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background: rgba(0,0,0,0.8);
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 50px;
+}
+h1,h2,#res{
+    color: white;
+    padding-top: 40px;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+#csk{
+    margin-left: 95px;
+    margin-top: 30px;
+}
+#kkr{
+    margin-right: 80px;
+    margin-top: 30px;
+}
+h2{
+    padding-top: 150px;
+}
+h3{
+    color: white;
+}
+.SCORE-CARD{
+    display: flex;
+}
+
+#SCORE_ALIGN{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.BUTTONS{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#b{
+    padding-left:35px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+input[type=submit]{
+    height: 40px;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-right: 60px;
+    background: rgb(133, 21, 145);
+    color: aliceblue;
+    border-radius: 20px;
+}
